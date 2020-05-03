@@ -5,13 +5,13 @@ var app = express();
 app.get("/", function(req, res) {
     console.log(req);
     console.log(res);
-    res.send("Hi there. Welcome Home")
+    res.send("Hi there. Welcome Home......")
     //This is the way of responding with text.
 });
 
 //Route to Dog page
 app.get("/dog", function(req, res) {
-    res.send("🐶 BhawBhaw` 🐶")
+    res.send("🐶 BhawBhaw 🐶")
 });
 
 
@@ -21,6 +21,6 @@ app.get("/bye", function(req, res) {
 })
 
 //Start serve and listen to port 8080
-app.listen(8080, function(){
-    console.log("Receiving incoming requests on PORT 8080")
+app.listen(3000, function(){
+    console.log("Receiving incoming requests on PORT 3030")
 });
